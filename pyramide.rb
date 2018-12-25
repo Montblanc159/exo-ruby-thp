@@ -4,7 +4,7 @@ require 'colorize'
 user_num_floor = -1
 
 # On demande à l'utilisateur de rentrer un nombre
-while user_num_floor < 1 || user_num_floor > 25 do
+while user_num_floor < 1 || user_num_floor > 25
 puts "Salut, bienvenue dans ma " + "super".red + " pyramide ! Combien d'étages veux-tu ?"
 print "> "
 user_num_floor = gets.chomp.to_i
