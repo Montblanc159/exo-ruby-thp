@@ -15,3 +15,10 @@ Il manque à ce code un " en fin de ligne pour terminer le string. Ruby ne compr
 
 ## 2.5
 #{} permet d'appeler une variable ou un calcul au sein d'un string délimité par "" ou ''
+
+## 2.6
+Le programme multiplie le nombre d'heures travaillées par jour avec le nombre de jours travaillés par semaine avec et le nombre de semaines et affiche le résultat. Des variables où sont stockés des nombres sont utilisées.
+
+Lorsque nous ajoutons *"number_of_hours_in_an_hour"* au calcul, le programme retourne : `$exo_06.rb:7:in '<main>': undefined local variable or method 'number_of_minutes_in_an_hour' for main:Object (NameError)`
+
+Cette erreur est dû au fait que nous appelons une variable dans le calcul qui n'est pas définie.
